@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+html {
+    background-color: #EFEFEF;
+}
+.header-wrapper {
+    padding: 18px 0;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    padding: 17px 15px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 0.88rem;
+    font-weight: 400;
+    }
+ .container {
+    width: 58%;
+    margin: 0 auto;
+ }
+.second-line-wrapper {
+    background-color: #FFFFFF;
+}
+ .second-line {
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo a {
+    text-decoration: none;
+    color: #F13C6E;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding-right: 20px;
+ }
+.call a {
+    text-decoration: none;
+    color: #000000;
+    padding: 40px 40px;
+    text-align: center;
+}
+.call button {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background-color: #FFFFFF;
+    font-size: 0.88rem;
+}
+.main-menu {
+    padding: 30px;
+}
+.main-menu a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 20px;
+}
+.sales-wrapper {
+    background-image: url(../image/main-background.svg);
+    margin-bottom: 80px;
+}
+.hero-section {
+    padding: 190px 0;
+    width: 28%;
+}
+.hero-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.hero-section p {
+    padding: 50px 0;
+    font-size: 0.88rem;
+    color:#FFFFFF;
+}
+.hero-section button {
+    background-color: #F13C6E;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;;
+    border: 2px solid #FFFFFF;
+    color:#FFFFFF;
+    font-size: 0.88rem;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.hero img {
+    width: 22%;
+}
+.gallery {
+    padding: 20px;
+}   
+.gallery a {
+    padding: 17px 15px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 0.88rem;
+    font-weight: 400;
+}
